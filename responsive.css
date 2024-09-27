@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 710px) {
     .hero {
         height: auto;
         padding: 15px;
@@ -81,61 +81,42 @@
 
 
 @media (max-width: 480px) {
+    .hero {
+        height: 40vh;
+    }
+
     .hero-text {
-        font-size: 1.5rem;
-        padding: 0 15px;
-        text-align: center;
+        font-size: 1.2rem;
+            max-width: 280px;
+            transition: transform 0.8s ease;
+            word-wrap: break-word;
+            white-space: normal;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0 15px;
     }
 
-    nav ul {
-        padding: 0;
-        margin: 0;
+    .container {
+        margin: 40px;
+        padding: 20px;
+        align-content: center;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
 
-    nav ul li {
-        margin: 8px 0;
+    .whatsapp-button {
+        width: 50px;
+        height: 50px;
+        line-height: 53px;
+        font-size: 40px;
     }
-
-    nav ul li a {
-        font-size: 1.1rem;
-    }
-
-    .company-info h1 {
-        font-size: 1.5rem;
-    }
-
-    .company-info p, .product-section p {
-        font-size: 0.9rem;
-
-        .buy-btn {
-            font-size: 12px;
-            padding: 6px 10px;
-        }
-
-        .cta-section h2 {
-            font-size: 1.4rem;
-        }
-
-        .cta-section p {
-            font-size: 1rem;
-        }
-
-        .redes-sociais h2, .contato h2 {
-            font-size: 1.3rem;
-        }
-
-        .whatsapp-button {
-            width: 45px;
-            height: 45px;
-            font-size: 28px;
-        }
-    }
+}
 
 
-    @media (max-width: 360px) {
+
+    @media (min-width: 360px) and (max-width: 400px )  {
 
         body {
             min-height: 100vh;
@@ -315,4 +296,3 @@
             font-size: 25px;
         }
     }
-}
